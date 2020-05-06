@@ -19,7 +19,6 @@ BOOL APIENTRY CustomCPUID( HMODULE hModule,
 }
 
 bool isAVX2supported()
-//Calculate the surface area and volume of a sphere with given radius
 {
     int cpui[4];
     cpui[0] = 7;
